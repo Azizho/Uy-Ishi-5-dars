@@ -47,21 +47,6 @@
     padding: 15px 45px;
 }
 
-@media screen and (max-width:607px){
-    .hero__container {
-        padding: 100px 0;
-        background-image: url('../../img/hero__bi-tel.svg');
-        border-radius: 10px;
-    }
-    .hero__title {
-        width: 279px;
-    }
-    .hero__text {
-        width: 279px;
-        margin-bottom: 39px;
-    }
-}
-
 @media screen and (max-width:1000px){
     .hero__container {
         margin-bottom: 136px;
@@ -70,6 +55,9 @@
         background-repeat: no-repeat;
         background-size: cover;
         border-radius: 10px;
+    }
+    .hero__content {
+        margin-left: 58px;
     }
     .hero__title {
         font-family: 'Fraunces';
@@ -103,5 +91,30 @@
         background: #0E8784;
         border-radius: 6px;
         padding: 15px 31px;
+    } 
+}
+
+@media screen and (max-width:650px){
+    .hero__container {
+        padding: 100px 0;
+        background-image: url('../../img/hero__bi-tel.svg');
+        border-radius: 10px;
+    }
+    .hero__content {
+        margin: 0 24px;
+    }
+    .hero__title {
+        width: 279px;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 40px;
+        color: #FEFCF7;
+    }
+    .hero__text {
+        width: 279px;
+        margin-bottom: 39px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
     }
 }
